@@ -24,7 +24,7 @@ $data['foto'] = 'img/'.$_POST['in_nis'].'.png';
 
 $siswa->updateSiswa($_POST['in_nis'], $data);
 
-echo "Data siswa Berhasil di update bro<br />";
+echo "Data siswa Berhasil di update broooo<br />";
 echo "<a href='usiswa.php?a=".$_POST['in_nis']."'>Detail Siswa</a>"
 
 ?>
